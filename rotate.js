@@ -1,9 +1,9 @@
 function rotate(arr, newarr){
     if(isValid(arr)){
-        n = Math.sqrt(arr.length);
-        var index = 0;
-        for(var i = 0; i < n; i++){
-            for(var j = 0; j < n; j++){
+        let n = Math.sqrt(arr.length);
+        let index = 0;
+        for(let i = 0; i < n; i++){
+            for(let j = 0; j < n; j++){
                 if((i > n-2-j) && (i<j)){
                     shiftDown(n, arr,newarr,index);
                 }
