@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "csv-stream": "^0.2.0",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "minimist": "^1.2.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
