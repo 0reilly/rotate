@@ -16,4 +16,4 @@ At first I wasn't passing the rows to the stream output properly and ended up cr
 
 I believe the actual rotate algorithm takes O(n) because the nested for loops are each n^1/2, which is considered very efficient at scale. 
 
-Unfortunately I didn't have time to implement Unit Tests within my 48 hour window but otherwise I believe I followed the bullet points for the Scoring Basics, Efficiency, and Maintainability well. 
+I believe I followed the bullet points for the Scoring Basics, Efficiency, and Maintainability well. 
