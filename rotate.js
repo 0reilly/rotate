@@ -1,6 +1,6 @@
 function rotate(arr, newarr){
     if(isValid(arr)){
-        let n = Math.sqrt(arr.length);
+        const n = Math.sqrt(arr.length);
         let index = 0;
         for(let i = 0; i < n; i++){
             for(let j = 0; j < n; j++){
